@@ -51,12 +51,18 @@ ul.cluster {
     margin-inline-start: 0;
 }
 
+.max-inline-size\:measure\*2 {
+    max-inline-size: calc(var(--measure) * 2);
+}
+
 .max-inline-size\:measure {
     max-inline-size: calc(var(--measure));
 }
+
 .max-inline-size\:measure\/2 {
     max-inline-size: calc(var(--measure) / 2);
 }
+
 .max-inline-size\:measure\/4 {
     max-inline-size: calc(var(--measure) / 4);
 }
