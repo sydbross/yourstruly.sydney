@@ -289,14 +289,14 @@ header h1 {
 }
 
 .sparkles {
-    background-image: url("./images/sparkles.png"), url("./images/sparkles2.png");
+    background-image: url("./images/sparkles.svg"), url("./images/sparkles2.svg");
     background-repeat: no-repeat;
     background-size: var(--s5);
     background-position: top left, bottom right;
 }
 
 .pansy {
-    background-image: url("./images/pansy.png"), url("./images/pansy.png");
+    background-image: url("./images/pansy.svg"), url("./images/pansy.svg");
     background-repeat: no-repeat;
     background-size: auto max(20vh, var(--s5)), auto max(20vh, var(--s5));
     background-position: bottom var(--gutter) left -5vh, top var(--gutter) right -5vh;
