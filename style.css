@@ -63,6 +63,10 @@ ul.cluster {
     max-inline-size: calc(var(--measure) / 2);
 }
 
+.max-inline-size\:measure\/2\.5 {
+    max-inline-size: calc(var(--measure) / 2.5);
+}
+
 .max-inline-size\:measure\/4 {
     max-inline-size: calc(var(--measure) / 4);
 }
@@ -197,7 +201,7 @@ h2 {
 }
 
 .cover.large {
-    min-block-size: 80vh;
+    min-block-size: 75vh;
 }
 
 .cover.medium {
@@ -239,10 +243,9 @@ img {
 .background-strikethrough {
     display: block;
     background: linear-gradient(180deg,
-        rgba(0,0,0,0) calc(50% - 1px),
-        rgba(0,0,0,1) calc(50%),
-        rgba(0,0,0,0) calc(50% + 1px)
-    );
+                                rgba(0,0,0,0) calc(50% - 1px),
+                                rgba(0,0,0,1) calc(50%),
+                                rgba(0,0,0,0) calc(50% + 1px));
     margin: 0 2em;
     min-height: 1px;
 }
@@ -257,35 +260,6 @@ img {
 
 header {
     text-align: center;
-}
-
-header h1 {
-    font-size: 2rem;
-    display: inline-block;
-    padding: 0 2em;
-    background-color: var(--color-light);
-    line-height: 0.75em;
-    position: relative;
-}
-
-.top-text {
-    text-transform: lowercase;
-    color: var(--color-dark);
-    font-family: 'Anaktoria';
-    font-style: normal;
-    font-weight: 50;
-    font-size: 120%;
-    letter-spacing: 0.02em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-.bottom-text {
-    text-transform: uppercase;
-    color: var(--color-pink);
-    margin-left: -0.4em;
 }
 
 .sparkles {
