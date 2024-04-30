@@ -146,6 +146,20 @@ h2 {
     border-radius: calc(var(--gutter) / 3);
 }
 
+.box.notched {
+    clip-path: polygon(
+        0 30%,
+        30% 0,
+        70% 0,
+        100% 30%,
+        100% 70%,
+        70% 100%,
+        30% 100%,
+        0% 70%,
+        0% 30%
+    );
+}
+
 .center {
     box-sizing: content-box;
     max-inline-size: 60vw;
